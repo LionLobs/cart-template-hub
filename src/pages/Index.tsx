@@ -36,7 +36,7 @@ import {
 const HORAS = Array.from({ length: 17 }, (_, i) => String(i + 7).padStart(2, "0"));
 const MINUTOS = ["00", "15", "30", "45"];
 const DIAS = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"];
-const LOCAIS = ["Areias", "Ribeirão", "Display"];
+const LOCAIS = ["Areias", "Armação", "Display"];
 
 const agendamentoSchema = z.object({
   nome: z.string().trim().min(1, "Nome é obrigatório").max(100),
