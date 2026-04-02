@@ -68,7 +68,7 @@ const Auth = () => {
   return (
     <div className="min-h-screen bg-background flex flex-col items-center justify-center px-4 py-8">
       <div className="w-full max-w-xs mb-6 rounded-2xl overflow-hidden shadow-lg border border-primary/15 animate-fade-in">
-        <img src={coverImage} alt="Carrinho TPL Ribeirão" className="w-full h-auto" />
+        <img src={coverImage} alt="Carrinho TPL Armação" className="w-full h-auto" />
       </div>
 
       <div className="w-full max-w-md animate-fade-in">
