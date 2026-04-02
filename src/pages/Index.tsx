@@ -617,7 +617,7 @@ const Index = () => {
             <Button variant="outline" size="icon" className="h-8 w-8" title={darkMode ? "Fundo branco" : "Fundo preto"} onClick={toggleTheme}>
               {darkMode ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
             </Button>
-            <a href="https://wa.me/5548988425163?text=Ol%C3%A1%2C%20preciso%20de%20ajuda%20com%20a%20agenda%20do%20carrinho" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/5548998571769?text=Ol%C3%A1%2C%20preciso%20de%20ajuda%20com%20a%20agenda%20do%20carrinho" target="_blank" rel="noopener noreferrer">
               <Button variant="outline" size="icon" className="h-8 w-8" title="Ajuda via WhatsApp">
                 <WhatsAppIcon className="h-4 w-4 text-primary" />
               </Button>
@@ -631,7 +631,7 @@ const Index = () => {
         <img src={coverImage} alt="Carrinho TPL Armação" className="w-full h-full object-cover" loading="eager" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent" />
         <div className="absolute bottom-4 left-0 right-0 text-center">
-          <h2 className="text-2xl sm:text-3xl font-bold drop-shadow-lg text-secondary-foreground">Carrinho TPL Armação</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold drop-shadow-lg text-secondary-foreground">Carrinho Armação</h2>
           <p className="text-sm drop-shadow text-secondary-foreground">Agenda de Testemunho Público</p>
         </div>
       </div>
@@ -642,7 +642,7 @@ const Index = () => {
           <Card className="border border-primary/15 shadow-md">
             <CardHeader className="bg-primary/5 rounded-t-lg pb-3">
               <CardTitle className="flex items-center gap-2 text-primary text-base sm:text-lg">
-                <Plus className="h-5 w-5" />CARRINHO TPL ARMAÇÃO
+                <Plus className="h-5 w-5" />CARRINHO ARMAÇÃO
               </CardTitle>
             </CardHeader>
             <CardContent className="pt-5">
