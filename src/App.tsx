@@ -29,10 +29,10 @@ const SplashScreen = () => (
   <div className="min-h-screen bg-background flex flex-col items-center justify-center">
     <div className="w-full max-w-xs mx-auto text-center space-y-5 px-4">
       <div className="mx-auto rounded-2xl overflow-hidden shadow-lg border border-primary/15 animate-fade-in">
-        <img src={coverImage} alt="Carrinho TPL Ribeirão" className="w-full h-auto" />
+        <img src={coverImage} alt="Carrinho TPL Armação" className="w-full h-auto" />
       </div>
       <div className="animate-fade-in">
-        <h1 className="text-2xl font-bold text-primary">Carrinho TPL Ribeirão</h1>
+        <h1 className="text-2xl font-bold text-primary">Carrinho TPL Armação</h1>
         <p className="text-sm text-primary mt-1">Agenda de Testemunho Público</p>
       </div>
       <div className="flex justify-center animate-fade-in">

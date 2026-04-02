@@ -36,13 +36,13 @@ import {
 const HORAS = Array.from({ length: 17 }, (_, i) => String(i + 7).padStart(2, "0"));
 const MINUTOS = ["00", "15", "30", "45"];
 const DIAS = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"];
-const LOCAIS = ["Areias", "Ribeirão", "Display"];
+const LOCAIS = ["Areias", "Armação", "Display"];
 
 const agendamentoSchema = z.object({
   nome: z.string().trim().min(1, "Nome é obrigatório").max(100),
   nome_dupla: z.string().trim().max(100).optional(),
   sem_dupla: z.boolean(),
-  local: z.enum(["Carrinho", "Areias", "Ribeirão", "Display"]),
+  local: z.enum(["Carrinho", "Areias", "Armação", "Display"]),
   horario: z.string().min(1, "Selecione um horário"),
   data: z.string().optional(),
   toda_semana: z.boolean(),
@@ -51,7 +51,7 @@ const agendamentoSchema = z.object({
 const LOCAL_COLORS: Record<string, string> = {
   Carrinho: "bg-primary/10 text-primary border-primary/30",
   Areias: "bg-accent/10 text-accent-foreground border-accent/30",
-  Ribeirão: "bg-secondary text-secondary-foreground border-border",
+  Armação: "bg-secondary text-secondary-foreground border-border",
   Display: "bg-primary/15 text-primary border-primary/20",
 };
 
@@ -628,10 +628,10 @@ const Index = () => {
 
       {/* Cover Image */}
       <div className="relative w-full h-44 sm:h-56 md:h-64 overflow-hidden">
-        <img src={coverImage} alt="Carrinho TPL Ribeirão" className="w-full h-full object-cover" loading="eager" />
+        <img src={coverImage} alt="Carrinho TPL Armação" className="w-full h-full object-cover" loading="eager" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent" />
         <div className="absolute bottom-4 left-0 right-0 text-center">
-          <h2 className="text-2xl sm:text-3xl font-bold drop-shadow-lg text-secondary-foreground">Carrinho TPL Ribeirão</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold drop-shadow-lg text-secondary-foreground">Carrinho TPL Armação</h2>
           <p className="text-sm drop-shadow text-secondary-foreground">Agenda de Testemunho Público</p>
         </div>
       </div>
@@ -642,7 +642,7 @@ const Index = () => {
           <Card className="border border-primary/15 shadow-md">
             <CardHeader className="bg-primary/5 rounded-t-lg pb-3">
               <CardTitle className="flex items-center gap-2 text-primary text-base sm:text-lg">
-                <Plus className="h-5 w-5" />CARRINHO TPL RIBEIRÃO
+                <Plus className="h-5 w-5" />CARRINHO TPL ARMAÇÃO
               </CardTitle>
             </CardHeader>
             <CardContent className="pt-5">
