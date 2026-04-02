@@ -628,10 +628,10 @@ const Index = () => {
 
       {/* Cover Image */}
       <div className="relative w-full h-44 sm:h-56 md:h-64 overflow-hidden">
-        <img src={coverImage} alt="Carrinho TPL Ribeirão" className="w-full h-full object-cover" loading="eager" />
+        <img src={coverImage} alt="Carrinho TPL Armação" className="w-full h-full object-cover" loading="eager" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent" />
         <div className="absolute bottom-4 left-0 right-0 text-center">
-          <h2 className="text-2xl sm:text-3xl font-bold drop-shadow-lg text-secondary-foreground">Carrinho TPL Ribeirão</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold drop-shadow-lg text-secondary-foreground">Carrinho TPL Armação</h2>
           <p className="text-sm drop-shadow text-secondary-foreground">Agenda de Testemunho Público</p>
         </div>
       </div>
