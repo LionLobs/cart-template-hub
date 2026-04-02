@@ -642,7 +642,7 @@ const Index = () => {
           <Card className="border border-primary/15 shadow-md">
             <CardHeader className="bg-primary/5 rounded-t-lg pb-3">
               <CardTitle className="flex items-center gap-2 text-primary text-base sm:text-lg">
-                <Plus className="h-5 w-5" />CARRINHO TPL RIBEIRÃO
+                <Plus className="h-5 w-5" />CARRINHO TPL ARMAÇÃO
               </CardTitle>
             </CardHeader>
             <CardContent className="pt-5">

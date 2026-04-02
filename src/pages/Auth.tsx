@@ -184,7 +184,7 @@ const Auth = () => {
       </div>
 
       <p className="mt-4 text-xs text-muted-foreground text-center animate-fade-in">
-        Congregação Ribeirão da Ilha
+        Congregação Armação
       </p>
     </div>
   );
