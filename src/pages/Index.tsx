@@ -42,7 +42,7 @@ const agendamentoSchema = z.object({
   nome: z.string().trim().min(1, "Nome é obrigatório").max(100),
   nome_dupla: z.string().trim().max(100).optional(),
   sem_dupla: z.boolean(),
-  local: z.enum(["Carrinho", "Areias", "Ribeirão", "Display"]),
+  local: z.enum(["Carrinho", "Areias", "Armação", "Display"]),
   horario: z.string().min(1, "Selecione um horário"),
   data: z.string().optional(),
   toda_semana: z.boolean(),
