@@ -51,7 +51,7 @@ const agendamentoSchema = z.object({
 const LOCAL_COLORS: Record<string, string> = {
   Carrinho: "bg-primary/10 text-primary border-primary/30",
   Areias: "bg-accent/10 text-accent-foreground border-accent/30",
-  Ribeirão: "bg-secondary text-secondary-foreground border-border",
+  Armação: "bg-secondary text-secondary-foreground border-border",
   Display: "bg-primary/15 text-primary border-primary/20",
 };
 
